@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Araxie</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/odin-0.10.4.css">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Niconne|Playball" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- start making your grid here -->
+
+  <header>
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="img/main-logo.png" alt="araxie logo">
+          <h1>Araxie</h1>
+          <h1>School of Oceanography Studies</h1>
+          <p> 18 Victoria Terrace, Shelly Beach QLD 4551, Australia</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-slideout-md navbar-spread">
+
+       <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+
+       <div class="navbar-menu">
+         <button class="menu-dismiss" aria-label="Dismiss navigation">&times;</button>
+
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Calendar</a></li>
+           <li><a href="#">Programs</a></li>
+           <li><a href="#">Staff Directory</a></li>
+           <li><a href="#">Athletics</a></li>
+           <li><a href="#">Student/Parent Info</a></li>
+         </ul>
+       </div>
+     </nav>
+
+  <main>
+
+    <div class="row">
+    <div class="col-xs-12 col-sm-4">
+       <img class="center" src="img/Headmistress.jpg" alt"teacher" align="center">
+      <h4>Janice Gloop</h4>
+      <p>Headmistress</p>
+   </div>
+    <div class="col-xs-12 col-sm-4">
+         <img class="center" src="img/lg-teacher.jpg" alt"teacher" align="center">
+         <h4>Jasmine Pettengill</h4>
+         <p> AP Marine Biology</p>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <img class="center" src="img/ap-scubba.jpg" alt"teacher" align="center">
+      <h4>Judy Miston</h4>
+      <p>AP Suba Diving</p>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <img class="center" src="img/ap-geology.jpg" alt"teacher" align="center">
+       <h2>Kevin Zabon</h2>
+       <p>AP Geology</p>
+    </div>
+  </div>
+
+
+  </main>
+
+  <footer>
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <div id="member">
+           <h3>Sign up for newsletters</h3>
+
+           <form action="thanks.html" method="post">
+
+      <fieldset>
+         <legend>Personal Info</legend>
+
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name">
+        <br>
+
+
+         <label for="phone">Phone:</label>
+         <input id="phone" type="text" name="phone">
+         <br>
+
+         <label for="email">Email:</label>
+         <input id="email" type="text" name="Email">
+
+         <input type="submit" value="Submit Form">
+
+         </form>
+         </div>
+
+         </fieldset></div>
+        <div class="col-xs-12 col-md-4">
+          <h3>Join Our Social Media</h3>
+          <img  src="img/facebook_004.png" alt="Facebook Icon" align="left">
+          <img  src="img/instagram_004.png" alt="Instagram Icon" align="left">
+          <img  src="img/twitter_004.png" alt="Twitter Icon" align="left">
+          <img src="img/pinterest_004.png" alt="pinterest icon" align="left">
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <h3>By: Jackie B.</h3>
+          <img src="img/main-logo2.png" alt="araxie logo">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- include any javascript below this line -->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="js/odin-0.7.1.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- owl carousel stuff -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            dots: true,
+            items: 4,
+            loop: true,
+            margin: 10,
+        })
+      });
+    </script>
+
+</body>
+</html>
