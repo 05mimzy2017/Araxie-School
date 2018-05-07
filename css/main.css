@@ -110,6 +110,14 @@ iframe {
 
 }
 
+/*** video  ***/
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+
 /***navbar***/
 .navbar {
       background-color: #003778;

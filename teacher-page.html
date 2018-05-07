@@ -48,7 +48,7 @@
            <li><a href="#">About</a></li>
            <li><a href="#">Calendar</a></li>
            <li><a href="#">Programs</a></li>
-           <li><a href="#">Staff Directory</a></li>
+           <li><a href="staff-directory.html">Staff Directory</a></li>
            <li><a href="#">Athletics</a></li>
            <li><a href="#">Student/Parent Info</a></li>
          </ul>
@@ -57,98 +57,14 @@
 
   <main>
 
-    <div class="row">
-
-<h2>Staff Directory</h2>
-
-    <div class="col-xs-6 col-sm-4">
-       <img class="center" src="img/Headmistress.jpg" alt"teacher" align="center">
-      <h4>Janice Gloop</h4>
-      <p>Headmistress</p>
-   </div>
-    <div class="col-xs-6 col-sm-4">
-         <img class="center" src="img/lg-teacher.jpg" alt"teacher" align="center">
-         <h4>Jasmine Pettengill</h4>
-         <p> AP LifeGuarding</p>
-    </div>
-    <div class="col-xs-6 col-sm-4">
-      <a href="teacher-page.html"><img class="center circle"  src="img/ap-scubba.jpg" alt"teacher" align="center"></a>
-      <h4>Judy Miston</h4>
-      <p>AP Scuba Diving</p>
+    <div class="container-xl">
+      <h1>Welcome to Scuba Diving</h1>
     </div>
 
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-snorkeling.jpg" alt"teacher" align="center">
-       <h4>Barbara Gudgeon</h4>
-       <p>AP Snorkeling</p>
-    </div>
+<div class="col-xs-12 col-lg-12">
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/3Gioc3QAJ7s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-geology.jpg" alt"teacher" align="center">
-       <h4>Kevin Zabon</h4>
-       <p>AP Geology</p>
-    </div>
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-sea-history.jpg" alt"teacher" align="center">
-       <h4>Stephan Klaus</h4>
-       <p>AP Sea History</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-boat-controlling.jpg" alt"teacher" align="center">
-       <h4>Kim Bondle</h4>
-       <p>AP Boat Controlling</p>
-    </div>
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-swimming.jpg" alt"teacher" align="center">
-       <h4>Donna Mill </h4>
-       <p>AP Swimming--with Dolphins</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-oceangraphy.jpg" alt"teacher" align="center">
-       <h4>Mason Pacu</h4>
-       <p>AP Oceangraphy</p>
-    </div>
-
-       <div class="col-xs-6 col-sm-4">
-         <img class="center" src="img/ap-marine-biology.jpg" alt"teacher" align="center">
-          <h4>Henry Scoffer</h4>
-          <p>AP Marine Biology</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-geology.jpg" alt"teacher" align="center">
-       <h4>Kevin Zabon</h4>
-       <p>AP Geology</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-pe.jpg" alt"teacher" align="center">
-       <h4>Dan Kokopu<h4>
-       <p>AP Physical Education</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-fishing.jpg" alt"teacher" align="center">
-       <h4>John Mindle</h4>
-       <p>AP Fishing</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/cp-es.jpg" alt"teacher" align="center">
-       <h4>Jasmine Huckleman</h4>
-       <p>CP Earth Science</p>
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      <img class="center" src="img/ap-surfing.jpg" alt"teacher" align="center">
-       <h4>Kate waves</h4>
-       <p>AP Surfing</p>
-    </div>
-
-  </div>
 
 
   </main>
@@ -208,17 +124,26 @@
     <!-- owl carousel stuff -->
     <script src="js/owl.carousel.min.js"></script>
     <script>
-      $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true,
-            dots: true,
-            items: 4,
-            loop: true,
-            margin: 10,
-        })
-      });
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:true
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    }
+})
     </script>
 
 </body>
