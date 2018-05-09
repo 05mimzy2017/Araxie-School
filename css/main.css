@@ -33,22 +33,26 @@ aside {
 
 h1 {
   color: #000000;
-  font-family: 'Niconne', cursive;
+  font-family: 'Playball', cursive;
   margin: 0;
   text-align: center;
 }
 
 h2 {
-    color: #000000;
+   color: #000000;
+   font-family: 'Arima Madurai', cursive;
    font-size: 25px;
    text-align: center;
 }
 
 h3 {
    color: #ffffff;
+   font-family: 'Arima Madurai', cursive;
+
 }
 
-h4 {
+h4 {r
+    font-family: 'Arima Madurai', cursive;
     text-align: center;
 }
 
@@ -61,9 +65,12 @@ h6 {
 }
 
 p {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
     text-align: center;
     line-height: 1.5
+    max-width: 50px ;
+
 }
 
 
