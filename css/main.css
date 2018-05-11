@@ -9,6 +9,8 @@ header {
 }
 
 main {
+   background-image: url(../img/main-bg.jpg);
+
 
 }
 
@@ -32,14 +34,15 @@ aside {
 /**** content styles ***/
 
 h1 {
-  color: #000000;
+  color: #ffffff;
   font-family: 'Playball', cursive;
+  font-size: 64px;
   margin: 0;
   text-align: center;
 }
 
 h2 {
-   color: #000000;
+   color: #ffffff;
    font-family: 'Arima Madurai', cursive;
    font-size: 25px;
    text-align: center;
@@ -51,7 +54,8 @@ h3 {
 
 }
 
-h4 {r
+h4 {
+    color: #ffffff;
     font-family: 'Arima Madurai', cursive;
     text-align: center;
 }
@@ -67,6 +71,7 @@ h6 {
 p {
     font-family: 'Niconne', cursive;
     font-size: 25px;
+    color: #ffffff;
     text-align: center;
     line-height: 1.5
     max-width: 50px ;
@@ -106,6 +111,7 @@ th {
 td {
 
 }
+
 
 /*** img  ***/
 
@@ -175,6 +181,8 @@ video{
     .menu-shown a:hover {
 
     }
+
+
 
 
 /*** image styles ***/
